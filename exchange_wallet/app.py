@@ -6,7 +6,7 @@ from dishka.integrations.fastapi import setup_dishka
 from fastapi import FastAPI
 
 from exchange_wallet.config import BingxConfig, Config
-from exchange_wallet.exchanges.di import ExchangeProvider
+from exchange_wallet.di import ExchangeProvider
 from exchange_wallet.routers.api.router import router as api_router
 
 
