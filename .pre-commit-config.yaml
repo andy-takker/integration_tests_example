@@ -31,7 +31,7 @@ repos:
     hooks:
       - id: mypy
         name: mypy
-        entry: mypy ./exchange_wallet_example/ --config-file ./pyproject.toml
+        entry: mypy ./exchange_wallet/ --config-file ./pyproject.toml
         language: python
         language_version: python3.12
         require_serial: true
